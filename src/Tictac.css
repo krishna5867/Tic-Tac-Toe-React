@@ -1,0 +1,23 @@
+body {
+  /* background-color: #000; */
+  background:linear-gradient(90deg,#3434e6, #ec6ead);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  grid-gap: 10px;
+  cursor: pointer;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 45px;
+  color: #ffffff;
+}
